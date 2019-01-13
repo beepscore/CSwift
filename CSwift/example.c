@@ -8,6 +8,6 @@
 
 #include "example.h"
 
-int32_t addTwo(int32_t an_int) {
+int32_t add_two(int32_t an_int) {
     return an_int + 2;
 }

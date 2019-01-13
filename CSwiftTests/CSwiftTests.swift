@@ -58,8 +58,8 @@ class ExampleTests: XCTestCase {
     func testAddTwo() {
         // "Swift imports any function declared in a C header as a Swift global function. "
         // https://developer.apple.com/documentation/swift/imported_c_and_objective-c_apis/using_imported_c_functions_in_swift
-        XCTAssertEqual(addTwo(-15), -13)
-        XCTAssertEqual(addTwo(38), 40)
+        XCTAssertEqual(add_two(-15), -13)
+        XCTAssertEqual(add_two(38), 40)
     }
 
 }

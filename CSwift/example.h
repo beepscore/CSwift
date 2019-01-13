@@ -38,6 +38,6 @@ struct House {
 };
 typedef struct House House;
 
-int32_t addTwo(int32_t an_int);
+int32_t add_two(int32_t an_int);
 
 #endif /* example_h */
