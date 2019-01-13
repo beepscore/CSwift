@@ -21,4 +21,10 @@
 
 #define DOG_NAME "fido"
 
+// https://developer.apple.com/documentation/swift/imported_c_and_objective-c_apis/using_imported_c_structs_and_unions_in_swift
+struct Color {
+    float r, g, b;
+};
+typedef struct Color Color;
+
 #endif /* example_h */

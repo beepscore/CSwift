@@ -34,4 +34,9 @@ class ExampleTests: XCTestCase {
         XCTAssertEqual(DOG_NAME, "fido")
     }
 
+    func testCStructColor() {
+        let color = Color(r: 0.3, g: 0.4, b: 0.5)
+        XCTAssertEqual(color.g, 0.4)
+    }
+
 }
