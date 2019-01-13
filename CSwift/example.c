@@ -7,3 +7,7 @@
 //
 
 #include "example.h"
+
+int32_t addTwo(int32_t an_int) {
+    return an_int + 2;
+}
