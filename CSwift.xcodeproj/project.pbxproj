@@ -36,6 +36,8 @@
 		DE9569BB21EBC7F400132789 /* CSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9569BF21EBC7F400132789 /* CSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSwiftTests.swift; sourceTree = "<group>"; };
 		DE9569C121EBC7F400132789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9569CA21EBCB2000132789 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DE9569CB21EBCB2C00132789 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,8 @@
 		DE95699E21EBC7F200132789 = {
 			isa = PBXGroup;
 			children = (
+				DE9569CA21EBCB2000132789 /* LICENSE */,
+				DE9569CB21EBCB2C00132789 /* README.md */,
 				DE9569A921EBC7F200132789 /* CSwift */,
 				DE9569BE21EBC7F400132789 /* CSwiftTests */,
 				DE9569A821EBC7F200132789 /* Products */,
