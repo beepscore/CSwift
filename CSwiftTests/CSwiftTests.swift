@@ -39,4 +39,18 @@ class ExampleTests: XCTestCase {
         XCTAssertEqual(color.g, 0.4)
     }
 
+    func testCStructHouse() {
+        // https://stackoverflow.com/questions/30042494/swift-convert-string-to-unsafemutablepointerint8
+        let castleAsCString = ("castle" as NSString).utf8String
+        let castleAsUnsafeMutablePointer = UnsafeMutablePointer<Int8>(mutating: castleAsCString)
+
+        let house = House(num_floors: 3,
+                          price: 1.57,
+                          name: castleAsUnsafeMutablePointer,
+                          is_big: false)
+        
+        XCTAssertEqual(house.name, castleAsUnsafeMutablePointer)
+        XCTAssertEqual(house.price, 1.57, accuracy: 0.001)
+    }
+
 }

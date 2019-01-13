@@ -12,6 +12,9 @@
 
 #include <stdio.h>
 
+// import stdbool.h for bool
+#include <stdbool.h>
+
 // Swift sees true as Int32 == 1
 #define HAPPY true
 
@@ -26,5 +29,13 @@ struct Color {
     float r, g, b;
 };
 typedef struct Color Color;
+
+struct House {
+    int num_floors;
+    float price;
+    char* name;
+    bool is_big;
+};
+typedef struct House House;
 
 #endif /* example_h */
