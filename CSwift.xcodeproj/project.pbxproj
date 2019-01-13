@@ -13,6 +13,7 @@
 		DE9569B221EBC7F400132789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9569B121EBC7F400132789 /* Assets.xcassets */; };
 		DE9569B521EBC7F400132789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9569B321EBC7F400132789 /* LaunchScreen.storyboard */; };
 		DE9569C021EBC7F400132789 /* CSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9569BF21EBC7F400132789 /* CSwiftTests.swift */; };
+		DE9569CF21EBCC7E00132789 /* example.c in Sources */ = {isa = PBXBuildFile; fileRef = DE9569CE21EBCC7E00132789 /* example.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,9 @@
 		DE9569C121EBC7F400132789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE9569CA21EBCB2000132789 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DE9569CB21EBCB2C00132789 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE9569CC21EBCC7E00132789 /* CSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE9569CD21EBCC7E00132789 /* example.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = example.h; sourceTree = "<group>"; };
+		DE9569CE21EBCC7E00132789 /* example.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = example.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,11 +86,14 @@
 			isa = PBXGroup;
 			children = (
 				DE9569AA21EBC7F200132789 /* AppDelegate.swift */,
-				DE9569AC21EBC7F200132789 /* ViewController.swift */,
-				DE9569AE21EBC7F200132789 /* Main.storyboard */,
 				DE9569B121EBC7F400132789 /* Assets.xcassets */,
-				DE9569B321EBC7F400132789 /* LaunchScreen.storyboard */,
+				DE9569CC21EBCC7E00132789 /* CSwift-Bridging-Header.h */,
+				DE9569CD21EBCC7E00132789 /* example.h */,
+				DE9569CE21EBCC7E00132789 /* example.c */,
 				DE9569B621EBC7F400132789 /* Info.plist */,
+				DE9569B321EBC7F400132789 /* LaunchScreen.storyboard */,
+				DE9569AE21EBC7F200132789 /* Main.storyboard */,
+				DE9569AC21EBC7F200132789 /* ViewController.swift */,
 			);
 			path = CSwift;
 			sourceTree = "<group>";
@@ -150,6 +157,7 @@
 				TargetAttributes = {
 					DE9569A621EBC7F200132789 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					DE9569BA21EBC7F400132789 = {
 						CreatedOnToolsVersion = 10.1;
@@ -202,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE9569AD21EBC7F200132789 /* ViewController.swift in Sources */,
+				DE9569CF21EBCC7E00132789 /* example.c in Sources */,
 				DE9569AB21EBC7F200132789 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2LXK9FK3W;
 				INFOPLIST_FILE = CSwift/Info.plist;
@@ -373,6 +383,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.CSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSwift/CSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2LXK9FK3W;
 				INFOPLIST_FILE = CSwift/Info.plist;
@@ -391,6 +404,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.beepscore.CSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CSwift/CSwift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
