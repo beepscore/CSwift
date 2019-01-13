@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE8EAE7D21EBED9D004F23BE /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8EAE7C21EBED9D004F23BE /* Functions.swift */; };
 		DE9569AB21EBC7F200132789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9569AA21EBC7F200132789 /* AppDelegate.swift */; };
 		DE9569AD21EBC7F200132789 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9569AC21EBC7F200132789 /* ViewController.swift */; };
 		DE9569B021EBC7F200132789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9569AE21EBC7F200132789 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE8EAE7C21EBED9D004F23BE /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		DE9569A721EBC7F200132789 /* CSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE9569AA21EBC7F200132789 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE9569AC21EBC7F200132789 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				DE9569CC21EBCC7E00132789 /* CSwift-Bridging-Header.h */,
 				DE9569CD21EBCC7E00132789 /* example.h */,
 				DE9569CE21EBCC7E00132789 /* example.c */,
+				DE8EAE7C21EBED9D004F23BE /* Functions.swift */,
 				DE9569B621EBC7F400132789 /* Info.plist */,
 				DE9569B321EBC7F400132789 /* LaunchScreen.storyboard */,
 				DE9569AE21EBC7F200132789 /* Main.storyboard */,
@@ -212,6 +215,7 @@
 				DE9569AD21EBC7F200132789 /* ViewController.swift in Sources */,
 				DE9569CF21EBCC7E00132789 /* example.c in Sources */,
 				DE9569AB21EBC7F200132789 /* AppDelegate.swift in Sources */,
+				DE8EAE7D21EBED9D004F23BE /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
