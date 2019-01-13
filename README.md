@@ -15,5 +15,11 @@ https://developer.apple.com/documentation/swift/imported_c_and_objective-c_apis/
 ### Using Imported C Macros in Swift
 https://developer.apple.com/documentation/swift/imported_c_and_objective-c_apis/using_imported_c_macros_in_swift
 
+## What is the best way to call into Swift from C?
+https://stackoverflow.com/questions/35106118/what-is-the-best-way-to-call-into-swift-from-c
+
+## Swift Meets C/C++
+https://gist.github.com/HiImJulien/c79f07a8a619431b88ea33cca51de787
+
 # Results
 
