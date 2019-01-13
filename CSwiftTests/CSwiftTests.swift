@@ -48,9 +48,11 @@ class ExampleTests: XCTestCase {
                           price: 1.57,
                           name: castleAsUnsafeMutablePointer,
                           is_big: false)
-        
-        XCTAssertEqual(house.name, castleAsUnsafeMutablePointer)
+
+        XCTAssertEqual(house.num_floors, 3)
         XCTAssertEqual(house.price, 1.57, accuracy: 0.001)
+        XCTAssertEqual(house.name, castleAsUnsafeMutablePointer)
+        XCTAssertFalse(house.is_big)
     }
 
 }
