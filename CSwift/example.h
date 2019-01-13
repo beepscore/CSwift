@@ -15,4 +15,8 @@
 // Swift sees true as Int32 == 1
 #define HAPPY true
 
+# define FIVE 5
+# define NEGATIVE_THREE -3
+# define FIVE_PT_NINE 5.9
+
 #endif /* example_h */

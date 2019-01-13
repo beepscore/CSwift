@@ -18,4 +18,16 @@ class ExampleTests: XCTestCase {
         XCTAssertEqual(HAPPY, 1)
     }
 
+    func testCDefineInt() {
+        XCTAssertEqual(NEGATIVE_THREE, -3)
+        XCTAssertEqual(FIVE, 5)
+        XCTAssertTrue(FIVE is Int32)
+        XCTAssertEqual(FIVE.bitWidth, 32)
+    }
+
+    func testCDefineDouble() {
+        XCTAssertEqual(FIVE_PT_NINE, 5.9)
+        XCTAssertTrue(FIVE_PT_NINE is Double)
+    }
+
 }
