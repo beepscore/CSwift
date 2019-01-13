@@ -30,4 +30,8 @@ class ExampleTests: XCTestCase {
         XCTAssertTrue(FIVE_PT_NINE is Double)
     }
 
+    func testCDefineString() {
+        XCTAssertEqual(DOG_NAME, "fido")
+    }
+
 }
