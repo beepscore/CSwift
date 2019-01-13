@@ -6,6 +6,7 @@
 //  Copyright © 2019 Beepscore LLC. All rights reserved.
 //
 
+// ifndef avoids including multiple times
 #ifndef example_h
 #define example_h
 
