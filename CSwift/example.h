@@ -12,4 +12,7 @@
 
 #include <stdio.h>
 
+// Swift sees true as Int32 == 1
+#define HAPPY true
+
 #endif /* example_h */
