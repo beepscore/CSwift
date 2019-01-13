@@ -21,5 +21,8 @@ https://stackoverflow.com/questions/35106118/what-is-the-best-way-to-call-into-s
 ## Swift Meets C/C++
 https://gist.github.com/HiImJulien/c79f07a8a619431b88ea33cca51de787
 
+## info about @_cdecl
+// https://theswiftdev.com/2018/03/29/everything-about-public-and-private-swift-attributes/
+
 # Results
 
